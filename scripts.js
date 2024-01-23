@@ -22,7 +22,7 @@ function solve() {
 	if (password !== repassword) { 
 		flag = 0; 
 		pass.innerText = 
-			"Passwords do not match. Please re-enter."; 
+			"Passwords doesnot match. Please re-enter."; 
 		setTimeout(() => { 
 			pass.innerText = ""; 
 		}, 3000); 
